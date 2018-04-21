@@ -1,0 +1,18 @@
+{
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "lint": "eslint src",
+    "test": "jest",
+    "prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "eslint": "^4.15.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.1.1"
+  }
+}

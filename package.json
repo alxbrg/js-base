@@ -1,0 +1,25 @@
+{
+  "name": "@alxbrg/js-base",
+  "version": "1.0.0",
+  "description": "Minimalist boilerplate generator for JavaScript projects",
+  "main": "./src/index.js",
+  "author": "Alexandre Borrego <alex@borrego.io>",
+  "license": "MIT",
+  "bin": "./bin/cli.js",
+  "scripts": {
+    "lint": "eslint src"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-standard": "^11.0.0-beta.0",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "ncp": "^2.0.0",
+    "winston": "^3.0.0-rc1"
+  }
+}

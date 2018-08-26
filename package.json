@@ -1,6 +1,6 @@
 {
   "name": "@alxbrg/js-base",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Minimalist boilerplate generator for JavaScript projects",
   "main": "./src/index.js",
   "author": "Alexandre Borrego <alex@borrego.io>",
